@@ -1,0 +1,181 @@
+{
+  "site": {
+    "name": "Mary's Bakery",
+    "tagline": "MARY'S BAKERY",
+    "slogan": "Hecho con amor, pedido con anticipación.",
+    "description": "Repostería artesanal casera en Costa Rica. Arrollados, queques y paquetes para fiestas. Pedidos con 24 horas de anticipación por WhatsApp.",
+    "logo": {
+      "image": "/images/logo-light.png",
+      "logo_dark": "/images/logo-dark.png",
+      "fallback_initials": "MB"
+    },
+    "theme": {
+      "primary": "#C8866A",
+      "primary_dark": "#A56A50",
+      "primary_light": "#F2D9CE",
+      "secondary": "#4A3728",
+      "cream": "#FAF5EF",
+      "cream_dark": "#F0E8DC",
+      "white": "#FFFFFF",
+      "dark": "#1C1209",
+      "gray": "#8C7B6E",
+      "gray_light": "#E8DDD5",
+      "accent": "#D4A574",
+      "accent_dark": "#B8865A"
+    },
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Lato"
+    },
+    "hero_image": "/images/8.jpeg",
+    "about_image": "/images/2.jpeg",
+    "order_notice_hours": 24
+  },
+  "whatsapp": "+50670269510",
+  "contact": {
+    "phone": "+506 7026-9510",
+    "email": "sofiamadriz1987@gmail.com",
+    "address": "Alajuela, Costa Rica",
+    "hours": "Lun–Sáb, 8:00 AM – 6:00 PM",
+    "delivery_zones": ["Alajuela", "Heredia", "San José"]
+  },
+  "hero": {
+    "headline": "Repostería",
+    "headline_italic": "Artesanal hecha con amor",
+    "subtext": "Cada pieza es elaborada a mano con ingredientes frescos. Hacé tu pedido con al menos 24 horas de anticipación.",
+    "cta_label": "Pedir por WhatsApp",
+    "badge": "✦ Pedidos con 24h de anticipación"
+  },
+  "nav_links": [
+    { "label": "Inicio",           "href": "#inicio" },
+    { "label": "Arrollados",       "href": "#arrollados" },
+    { "label": "Queques",          "href": "#queques" },
+    { "label": "Paquetes Fiestas", "href": "#paquetes" },
+    { "label": "Nosotros",         "href": "#nosotros" },
+    { "label": "Contacto",         "href": "#contacto" }
+  ],
+  "arrollados": [
+    {
+      "id": 1,
+      "name": "Arrollado de Leche Condensada",
+      "description": "Suave bizcocho enrollado relleno de crema de leche condensada y arequipe, espolvoreado con azúcar glass y decorado con almendras tostadas.",
+      "price_from": 12000,
+      "price_unit": "CRC",
+      "sizes": ["Mediano (8–10 porciones)", "Grande (12–15 porciones)"],
+      "image": "/images/7.jpeg",
+      "images": ["/images/7.jpeg", "/images/2.jpeg","/images/9.jpeg"],
+      "badge": "⭐ Favorito",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Arrollado Crocante",
+      "description": "Bizcocho crujiente por fuera y tierno por dentro, relleno de arequipe y nueces caramelizadas. Un contraste de texturas irresistible.",
+      "price_from": 13000,
+      "price_unit": "CRC",
+      "sizes": ["Mediano", "Grande"],
+      "image": "/images/5.jpeg",
+      "images": ["/images/5.jpeg", "/images/6.jpeg", "/images/4.jpeg"],
+      "badge": "🌟 Nuevo",
+      "available": true
+    }
+  ],
+  "queques": [
+    {
+      "id": 3,
+      "name": "Torta Chilena",
+      "description": "Capas de galleta crujiente bañadas en arequipe cremoso, coronadas con chantilly y confites de colores. Un clásico irresistible, favorito de todas las edades.",
+      "price_from": 15000,
+      "price_unit": "CRC",
+      "sizes": ["Pequeña (6 porciones)", "Mediana (10 porciones)", "Grande (15 porciones)"],
+      "image": "/images/8.jpeg",
+      "images": ["/images/8.jpeg", "/images/1.jpeg"],
+      "badge": "🎂 Clásico",
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Queque de Chocolate",
+      "description": "Generosas capas de bizcocho de chocolate con ganache de cacao, virutas de chocolate y chips por todo el contorno. Intenso, húmedo y perfecto para los amantes del chocolate.",
+      "price_from": 18000,
+      "price_unit": "CRC",
+      "sizes": ["Mediano (8 porciones)", "Grande (12 porciones)"],
+      "image": "/images/3.jpeg",
+      "images": ["/images/3.jpeg"],
+      "badge": "🍫 Top ventas",
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Queque de Zanahoria",
+      "description": "Esponjoso queque de zanahoria con especias, bañado en crema blanca y arequipe. Tierno por dentro y con una cobertura suave e irresistible.",
+      "price_from": 16000,
+      "price_unit": "CRC",
+      "sizes": ["Mediano (8 porciones)", "Grande (12 porciones)"],
+      "image": "/images/1.jpeg",
+      "images": ["/images/1.jpeg"],
+      "badge": "🥕 Especial",
+      "available": true
+    }
+  ],
+  "paquetes": [
+    {
+      "id": 6,
+      "name": "Paquete Lasaña + Ensalada",
+      "description": "Lasaña casera horneada en bandeja de aluminio lista para llevar, acompañada de una fresca ensalada de vegetales mixtos con aguacate. Ideal para reuniones familiares o eventos de empresa.",
+      "price_from": 35000,
+      "price_unit": "CRC",
+      "sizes": ["6–8 personas", "10–12 personas", "15–20 personas"],
+      "images": ["/images/lasana_fiestas.jpg"],
+      "image": "/images/lasana_fiestas.jpg",
+      "badge": "🎉 Para fiestas",
+      "includes": ["Lasaña horneada en bandeja", "Ensalada fresca con aguacate", "Utensilios desechables"],
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Paquete Pierna de Cerdo + Cheesecake",
+      "description": "Pierna de cerdo marinada y horneada con piña caramelizada, aceitunas y especias. Incluye un Cheesecake de fresa para el postre. El paquete perfecto para celebrar en grande.",
+      "price_from": 55000,
+      "price_unit": "CRC",
+      "sizes": ["8–10 personas", "15–20 personas"],
+      "images": ["/images/posta_cerdo.jpg", "/images/posta_cerdo2.png", "/images/posta_cerdo3.jpg", "/images/chesscake.webp"],
+      "image": "/images/posta_cerdo.jpg",
+      "badge": "👑 Premium",
+      "includes": ["Pierna de cerdo horneada con piña", "Cheesecake de fresa", "Ensalada opcional (+₡5,000)"],
+      "available": true
+    }
+  ],
+  "about": {
+    "headline": "Una historia de amor por la cocina",
+    "body": "En Mary's Bakery cada postre y platillo es elaborado artesanalmente con ingredientes frescos y mucho amor. Somos una cocina casera comprometida con la calidad y el sabor auténtico.\n\nCada pedido se prepara especialmente para vos, por eso necesitamos al menos 24 horas de anticipación para garantizarte el mejor resultado.",
+    "pillars": [
+      { "icon": "🧁", "title": "100% Artesanal", "desc": "Todo elaborado a mano en nuestra cocina con ingredientes frescos y de calidad." },
+      { "icon": "⏰", "title": "24h de Anticipación", "desc": "Para garantizarte un producto fresco y perfecto, necesitamos tu pedido con un día de antelación." },
+      { "icon": "🚗", "title": "Entrega a Domicilio", "desc": "Llevamos tu pedido hasta tu casa en Alajuela, Heredia y San José." }
+    ],
+    "stats": [
+      { "num": "500+", "label": "Clientes felices" },
+      { "num": "3+",   "label": "Años de experiencia" },
+      { "num": "100%", "label": "Hecho en casa" }
+    ]
+  },
+  "order_process": [
+    { "step": "01", "title": "Elige tu pedido",         "desc": "Explorá nuestro catálogo y seleccioná el producto o paquete que querés." },
+    { "step": "02", "title": "Escríbenos por WhatsApp", "desc": "Indicanos el producto, tamaño, fecha de entrega y tu dirección." },
+    { "step": "03", "title": "Confirmamos",             "desc": "Te confirmamos disponibilidad, precio y acordamos el método de pago." },
+    { "step": "04", "title": "¡Disfruta!",              "desc": "Recibís tu pedido fresco, elaborado especialmente para vos." }
+  ],
+  "testimonials": [
+    { "name": "Andrea Mora",    "location": "Alajuela", "text": "El arrollado de leche condensada fue el centro de atención en el cumpleaños de mi hija. ¡Todos quedaron encantados!", "stars": 5 },
+    { "name": "Carlos Jiménez", "location": "Heredia",  "text": "Pedimos el paquete de pierna de cerdo para una reunión familiar y fue un éxito total. La piña caramelizada es increíble.", "stars": 5 },
+    { "name": "María Solano",   "location": "San José",  "text": "Excelente calidad y muy puntual con la entrega. La atención por WhatsApp es súper ágil y amable.", "stars": 5 }
+  ],
+  "faq": [
+    { "q": "¿Con cuánto tiempo debo hacer mi pedido?",         "a": "Necesitamos mínimo 24 horas de anticipación para asegurar que tu pedido esté fresco y perfecto." },
+    { "q": "¿Hacen entregas a domicilio?",                     "a": "Sí, hacemos entregas en Alajuela, Heredia y San José. El costo de envío varía según la zona." },
+    { "q": "¿Puedo personalizar un paquete para mi evento?",   "a": "¡Por supuesto! Escríbenos por WhatsApp y armamos un paquete a la medida de tu reunión o fiesta." },
+    { "q": "¿Qué métodos de pago aceptan?",                    "a": "Aceptamos SINPE Móvil, transferencia bancaria y efectivo contra entrega." },
+    { "q": "¿Los paquetes para fiestas incluyen utensilios?",  "a": "Sí, los paquetes incluyen utensilios desechables. Consultanos por WhatsApp para detalles específicos." }
+  ]
+}
